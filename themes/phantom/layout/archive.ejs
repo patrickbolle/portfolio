@@ -1,0 +1,33 @@
+<%
+    var title;
+    var postList = [];
+    if (page.category) {
+        site.categories.forEach(function(item) {
+            if(item.name === page.category) {
+                postList = item.posts.slice();
+            }
+        });
+        title = page.category;
+    }
+    else if (page.tag) {
+        site.tags.forEach(function(item) {
+            if(item.name === page.tag) {
+                postList = item.posts;
+            }
+        });
+        title = page.tag;
+    } else {
+        postList = site.posts;
+    }
+%>
+
+<section class="archives">
+    <% if(title) { %>
+        <div class="archive-title"><%- title %></div>
+    <% } %>
+    <section class="tiles">
+        <% postList.each(function(item, index){ %>
+          <%- partial('_partial/article-index', {item: item, index: index}) %>
+        <% }); %>
+    </section>
+</section><!-- end main -->
