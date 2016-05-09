@@ -1,16 +1,7 @@
 ---
-title: EST8 Capstone Project
-subtitle: Portfolio
-cover_detail: est8main.png
+title: EST8 Capstone
 date: 2016-04-25 11:47:33
-tags:
-- Portfolio
-- Meteor
-- Javascript
-- Mongo
-- Capstone
-- Stripe
-- LetsEncrypt
+desc: Lorem ipsum dolor sit amet, consectetur.
 ---
 
 ## <a href="https://www.est8.io">EST8.io</a>

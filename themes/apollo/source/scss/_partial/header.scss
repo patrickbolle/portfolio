@@ -4,7 +4,7 @@ header {
     .logo-link {
         float: left;
     }
-    
+
     .nav {
         float: right;
         left: 80px;
@@ -18,6 +18,8 @@ header {
         display: inline-block;
         padding: 19px  10px ;
         a {
+            text-transform: lowercase;;
+            font-weight: 100;
             font-size: 16px;
             line-height: 1.4;
         }
