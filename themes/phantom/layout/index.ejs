@@ -1,7 +1,25 @@
-<header>
-    <p><%- theme.susbtitle_secondary %></p>
+<header class="align-left">
+    <p>
+      Recently graduated computer programmer/freelancer living in Canada. I travel a lot, write sad music, and code cool stuff.
+    </p>
+    <p>
+      I specialize in Shopify development, web applications, and general web design. <br>
+      You can learn more about me, and check out my portfolio <a href="/about">here.</a> <br>
+    </p>
 </header>
 
+<hr><br>
+
+<h4 class="align-center">Quick, functional web development.</h4>
+<p class="align-center">
+  Using a variety of web tools and frameworks, I develop real time, responsive websites to your specifications. <br>
+  Currently I use <a href="http://meteor.com">Meteor</a>, React, and Shopify to build my sites. <br>
+  <h6 class="align-center"><a href="mailto:contact@patrickbollenbach.com">Send me an email</a> if you are interested in working with me.</h6>
+
+</p>
+<hr><br>
+
+<h5>Blog <small></small></h5>
 <section class="tiles">
     <% page.posts.forEach(function(item, index){ %>
         <%- partial('_partial/article-index', {item: item, index: index}) %>

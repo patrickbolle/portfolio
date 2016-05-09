@@ -15,6 +15,7 @@
         <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
     <% } %>
 
+    <meta name="google-site-verification" content="OuffUNcWwhCMFBjN18xqm5HiNqkF5QI-tPVvIwFGkc8" />
     <!--Author-->
     <% if (config.author){ %>
         <meta name="author" content="<%= config.author %>">
@@ -70,5 +71,4 @@
 
     <!-- Google Analytics -->
     <%- partial('google-analytics') %>
-
 </head>

@@ -4,9 +4,9 @@ date: 2016-04-13 11:11:25
 ---
 ---
 I'm a 21 year old web developer, currently looking for freelancing positions or remote work.
-Just recently, I graduated from the Computer Programmer/Analyst program at Conestoga College in Kitchener, Canada.
+Just recently, I graduated from the Computer Programmer/Analyst program at Conestoga College in Kitchener, Ontario, Canada.
 
-#### You can view my portfolio <a href="/pbportfolio/tags/portfolio">here.</a>
+#### You can view my portfolio <a href="/tags/portfolio">here.</a>  
 
 What I'm Learning | What I've Learned
 ------------------|------------------
